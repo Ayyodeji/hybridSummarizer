@@ -1,5 +1,3 @@
-Certainly! Here's a simple `README.md` file that you can use for your GitHub documentation:
-
 ````markdown
 # Hybrid Summarizer
 
