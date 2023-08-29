@@ -1,6 +1,7 @@
 # Hybrid Summarizer
 
 Hybrid Summarizer is a web application that combines extractive and abstractive summarization techniques to generate concise summaries of input text.
+Hybrid Summarizer utilizes both extractive summarization (using BERT) and abstractive summarization (using Pegasus and BART) to create summaries that capture key information from input text. The summaries are then combined and pruned using cosine similarity to produce a refined summary.
 
 ## Table of Contents
 
@@ -13,14 +14,14 @@ Hybrid Summarizer is a web application that combines extractive and abstractive 
 
 ## Description
 
-Hybrid Summarizer utilizes both extractive summarization (using BERT) and abstractive summarization (using Pegasus and BART) to create summaries that capture key information from input text. The summaries are then combined and pruned using cosine similarity to produce a refined summary.
+The Hybrid Summarizer model architecture represents a cohesive fusion of extractive and abstractive summarization methodologies, aiming to distill the core essence of input text into succinct and coherent summaries. It initiates the process with extractive summarization, employing the BERT architecture to comprehend the contextual significance of sentences through tokenization and embedding calculations. This results in the identification of salient sentences, forming the basis of the extractive summary. Transitioning seamlessly, the abstractive phase harnesses the prowess of both Pegasus and BART models, adept at generating summaries by predicting cohesive phrases that encapsulate the thematic core of the text. The culmination lies in the synthesis of these paradigms, wherein the generated extractive and abstractive summaries are strategically amalgamated. To ensure coherence, a cosine similarity-based pruning mechanism adeptly curates the final summary by eliminating redundant overlaps between the extractive and abstractive components. Thus, the Hybrid Summarizer model stands as a testament to the harmonious collaboration between disparate yet complementary techniques, ultimately resulting in summaries that encapsulate both factual relevance and linguistic eloquence
 
 ## Installation
 
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/your-username/hybrid-summarizer.git
+   git clone https://github.com/Ayyodeji/hybridSummarizer.git
    ```
 
 ````
@@ -82,13 +83,4 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 3. Commit your changes: `git commit -am 'Add new feature'`
 4. Push to the branch: `git push origin new-feature`
 5. Create a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-```
-
-Replace `"your-username"` in the repository URL with your actual GitHub username, and feel free to customize any other information as needed. This `README.md` provides a basic structure for introducing your project, explaining its usage, showcasing the project structure, inviting contributions, and mentioning the license.
-```
 ````
