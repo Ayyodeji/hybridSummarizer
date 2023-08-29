@@ -1,4 +1,3 @@
-````markdown
 # Hybrid Summarizer
 
 Hybrid Summarizer is a web application that combines extractive and abstractive summarization techniques to generate concise summaries of input text.
@@ -23,6 +22,7 @@ Hybrid Summarizer utilizes both extractive summarization (using BERT) and abstra
    ```bash
    git clone https://github.com/your-username/hybrid-summarizer.git
    ```
+
 ````
 
 2. Navigate to the project directory:
@@ -91,3 +91,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 Replace `"your-username"` in the repository URL with your actual GitHub username, and feel free to customize any other information as needed. This `README.md` provides a basic structure for introducing your project, explaining its usage, showcasing the project structure, inviting contributions, and mentioning the license.
 ```
+````
