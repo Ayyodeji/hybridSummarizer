@@ -24,7 +24,7 @@ The Hybrid Summarizer model architecture represents a cohesive fusion of extract
    git clone https://github.com/Ayyodeji/hybridSummarizer.git
    ```
 
-````
+
 
 2. Navigate to the project directory:
 
@@ -83,4 +83,3 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 3. Commit your changes: `git commit -am 'Add new feature'`
 4. Push to the branch: `git push origin new-feature`
 5. Create a pull request.
-````
